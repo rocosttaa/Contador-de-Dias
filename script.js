@@ -63,6 +63,12 @@ function cotacao() {
         style: "currency",
         currency: "BRL",
       });
+      document.getElementById("variation").innerHTML = parseFloat(
+        euroReal.varBid
+      ).toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL",
+      });
     });
 }
 
