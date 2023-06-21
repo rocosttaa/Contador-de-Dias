@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contagem regressiva</title>
+    <title>Contador de Dias</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Quantas horas de oxigênio tem o submarino desaparecido?</h1>
+    <h1>&#9992</h1>
 
     <div class="countdown-container">
+      <div class="countdown-el days-c">
+        <p class="text" id="days">0</p>
+        <span>dias</span>
+      </div>
 
       <div class="countdown-el hours-c">
         <p class="text" id="hours">0</p>
@@ -28,3 +32,14 @@
         <span>segundos</span>
       </div>
     </div>
+
+    <h2>Cotação Atual Euro</h2>
+
+    <p id="date">Data:<span id="thisdate"></span></p>
+    <p id="value">
+      Atual: <span id="venda"></span><br />
+      Valor Máximo do Dia: <span id="maxvalue"></span><br />
+      Valor Mínimo: <span id="minvalue"></span>
+    </p>
+  </body>
+</html>
